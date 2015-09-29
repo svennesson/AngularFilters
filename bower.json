@@ -1,0 +1,21 @@
+{
+  "name": "angular-filters",
+  "version": "0.0.0",
+  "homepage": "https://github.com/svennesson/AngularFilters",
+  "authors": [
+    "Marcus Svensson <svensson.marcus.9@gmail.com>"
+  ],
+  "description": "Marcus angular filters",
+  "main": "app.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
