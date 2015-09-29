@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/svennesson/AngularFilters/issues"
   },
-  "homepage": "https://github.com/svennesson/AngularFilters"
+  "homepage": "https://github.com/svennesson/AngularFilters",
+  "devDependencies": {
+    "init": "^0.1.2",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6"
+  }
 }
