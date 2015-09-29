@@ -31,4 +31,16 @@ angular.module('marcusFilters', [])
 
 			return input;
 		};
+	})
+	.filter('uniqueStringArray', function () {
+		return function (array) {
+
+			if (angular.isArray(array)) {
+				array = array.filter(function (item, index, inputArray) {
+					return inputArray.indexOf(item) === index;
+				});
+			}
+
+			return array;
+		};
 	});
