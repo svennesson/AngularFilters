@@ -1,0 +1,19 @@
+{
+  "name": "angular-filters",
+  "version": "1.0.0",
+  "description": "Marcus angular filters",
+  "main": "app.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svennesson/AngularFilters.git"
+  },
+  "author": "Marcus Svensson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svennesson/AngularFilters/issues"
+  },
+  "homepage": "https://github.com/svennesson/AngularFilters"
+}
