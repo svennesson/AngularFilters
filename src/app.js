@@ -1,4 +1,11 @@
 'use strict';
+
+function toTitleCase(input) {
+	return input.replace(/\b\w+/g, function (s) {
+		return s.charAt(0).toUpperCase() + s.substr(1).toLowerCase();
+	});
+}
+
 angular.module('marcusFilters', [])
 	.filter('reverse', function () {
 		return function (input) {
@@ -13,5 +20,15 @@ angular.module('marcusFilters', [])
 			} else {
 				return input;
 			}
+		};
+	})
+	.filter('titleCase', function () {
+		return function (input) {
+
+			if (angular.isString(input)) {
+				return toTitleCase(input);
+			}
+
+			return input;
 		};
 	});
