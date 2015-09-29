@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/svennesson/AngularFilters",
   "devDependencies": {
-    "init": "^0.1.2",
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.10",
     "karma-chrome-launcher": "^0.2.0",
